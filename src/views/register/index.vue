@@ -2,7 +2,7 @@
   <div class="login-container">
     <el-form ref="form" :model="form" class="login-form" auto-complete="on" label-position="left">
       <div class="title-container">
-        <h3 class="title">注册账户</h3>
+        <h3 class="title">注册账户界面</h3>
       </div>
 
       <el-form-item>
