@@ -1,6 +1,7 @@
 import { post } from '@/utils/request'
 
 export default {
+  //用户api接口
   getUserPageList: query => post('/api/admin/user/page/list', query),
   getUserEventPageList: query => post('/api/admin/user/event/page/list', query),
   createUser: query => post('/api/admin/user/edit', query),
