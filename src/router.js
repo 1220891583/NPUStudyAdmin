@@ -44,7 +44,7 @@ const constantRoutes = [
     ]
   },
   {
-    path: '/user1',
+    path: '/user',
     component: Layout,
     name: 'UserPage',
     meta: {
